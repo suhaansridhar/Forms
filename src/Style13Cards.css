@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cards--generator--container{
+    display: flex;
+    border: 0.1rem solid black;
+    border-radius: 10px;
+    width: 600px;
+    justify-content: space-between;
+    padding: 1rem;
+    margin: 15px auto;
+    text-transform: capitalize;
+    font-weight: 100;
+}
+
+.cards--generator--container div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.cards--generator--container div h2{
+    margin-left: 10px;
+}
+
+.check--container{
+    font-size: 1rem;
+    margin-top: 7px;
+}
+
+.icon--button{
+    border: none;
+    background-color: white;
+}
+
+.icon{
+    font-size: 1.7rem;
+    background-color: none;  
+}
+
+.icon:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.check--container:hover{
+    cursor: pointer;
+}
+
+.container h2{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.input--container{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.input--container input{
+    padding: 1rem ;
+    font-size: 1rem;
+    border-top: 0.1rem solid black;
+    border-bottom: 0.1rem solid black;
+    border-left: 0.1rem solid black;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.input--container input:focus{
+    outline: none;
+}
+
+.input--container button{
+    border-right: 0.1rem solid black;
+    border-top: 0.1rem solid black;
+    border-bottom: 0.1rem solid black;
+    border-radius: 0 10px 10px 0;
+    padding: 1rem;
+    background-color: orange;
+    font-size: 1rem;
+}
+
+.input--container button:hover{
+    cursor: pointer;
+}
+
+.completed-tasks--heading{
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    margin-top: 15px;
+}

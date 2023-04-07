@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.dark{
+    background-color: white;
+    color: black;
+}
+
+.light{
+    background-color: black;
+    color: white;
+}
+
+.heading--container{
+    display: flex;
+    padding: 2rem;
+    justify-content: space-between;
+    height: auto;
+    align-items: center;
+    background-color: aquamarine;
+}
+
+button{
+    padding: 1rem;
+    border: 0.1rem solid black;
+    border-radius: 10px;
+    background-color: auto;
+    font-size: 1rem;
+}
+
+.content--container{
+    padding: 1rem;
+    margin: auto;
+    width: 70%;
+}
+
+.content--container li{
+    margin: 10px 0px;
+    font-size: 2rem;
+}
